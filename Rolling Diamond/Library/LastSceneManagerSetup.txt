@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scene/LevelTutorial.unity
+  isLoaded: 1
+  isActive: 1

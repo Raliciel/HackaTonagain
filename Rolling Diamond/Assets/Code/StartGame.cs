@@ -10,4 +10,5 @@ public class StartGame : MonoBehaviour {
     {
         Application.Quit();
     }
+
 }
