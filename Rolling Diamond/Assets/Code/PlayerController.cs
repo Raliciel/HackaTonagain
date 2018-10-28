@@ -4,7 +4,7 @@ public class PlayerController : MonoBehaviour {
 
 	public Rigidbody rb;
 
-	public float movingForce = 2000f;
+	public float movingForce = 500f;
 
 	void FixedUpdate () {
 		if ( Input.GetKey("right") ) 
