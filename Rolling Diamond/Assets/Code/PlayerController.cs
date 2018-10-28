@@ -3,10 +3,16 @@
 public class PlayerController : MonoBehaviour {
 
 	public Rigidbody rb;
+    public Transform Respanw;
+	public float movingForce = 500f;
 
-	public float movingForce = 2000f;
+    private void Start()
+    {
+        transform.position = Respanw.position;
+        transform.rotation = Random.rotation;
+    }
 
-	void FixedUpdate () {
+    void FixedUpdate () {
 		if ( Input.GetKey("right") ) 
 		{
 			rb.AddForce(movingForce * Time.deltaTime, 0, 0);
